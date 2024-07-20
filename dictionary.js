@@ -19,6 +19,25 @@ const dictionary = [
         relatedWords: ["仁", "衆"]
     },
     {
+        word: "人民",
+        pronunciation: "ぴしだ",
+        hiragana: "ぴしだ",
+        mean: [
+            {
+                type: "noun",
+                explanation: [
+                    {
+                        translate: "人民,国民",
+                        example: [
+                            { ht: "人民和国", ja: "人民共和国", htPron: "ぴしだおみわり" }
+                        ]
+                    }
+                ]
+            }
+        ],
+        relatedWords: ["仁", "衆"]
+    },
+    {
         word: "柱",
         pronunciation: "ばな",
         hiragana: "ばな",
