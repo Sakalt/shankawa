@@ -228,6 +228,45 @@ const dictionary = [
         relatedWords: ["人"]
     },
     {
+        word: "戻",
+        pronunciation: "ねこ",
+        hiragana: "ねこ",
+        mean: [
+            {
+                type: "noun",
+                explanation: [
+                    {
+                        translate: "戻る,バックする",
+                        example: [
+                            { ht: "家だ戻", ja: "家へ戻る", htPron: "はくだねこ" }
+                        ]
+                    }
+                ]
+            }
+        ],
+        relatedWords: ["仁", "衆"]
+    },
+    {
+        word: "戸",
+        pronunciation: "びゃ",
+        hiragana: "びゃ",
+        mean: [
+            {
+                type: "noun",
+                explanation: [
+                    {
+                        translate: "拠点,中心",
+                        example: [
+                            { ht: "私戸戻", ja: "私は拠点にもどる", htPron: "するびゃねこ" }
+                        ]
+                    }
+                ]
+            }
+        ],
+        relatedWords: ["仁", "衆"]
+    },
+
+    {
         word: "血",
         pronunciation: "せる",
         hiragana: "せる",
