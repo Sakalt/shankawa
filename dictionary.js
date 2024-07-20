@@ -76,6 +76,44 @@ const dictionary = [
         relatedWords: ["仁", "衆"]
     },
     {
+        word: "静状",
+        pronunciation: "ないぜっさ",
+        hiragana: "ないぜっさ",
+        mean: [
+            {
+                type: "adjective",
+                explanation: [
+                    {
+                        translate: "正常な,静かな",
+                        example: [
+                            { ht: "静状海", ja: "静かな海", htPron: "ないせっさこど" }
+                        ]
+                    }
+                ]
+            }
+        ],
+        relatedWords: ["静", "未声"]
+    },
+    {
+        word: "未声",
+        pronunciation: "ばつる",
+        hiragana: "ばつる",
+        mean: [
+            {
+                type: "noun",
+                explanation: [
+                    {
+                        translate: "ミュート",
+                        example: [
+                            { ht: "未声行", ja: "ミュートする", htPron: "ばつるけん" }
+                        ]
+                    }
+                ]
+            }
+        ],
+        relatedWords: ["仁", "衆"]
+    },
+    {
         word: "仁",
         pronunciation: "がい",
         hiragana: "がい",
