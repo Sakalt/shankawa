@@ -19,6 +19,44 @@ const dictionary = [
         relatedWords: ["仁", "衆"]
     },
     {
+        word: "柱",
+        pronunciation: "ばな",
+        hiragana: "ばな",
+        mean: [
+            {
+                type: "noun",
+                explanation: [
+                    {
+                        translate: "柱、円柱",
+                        example: [
+                            { ht: "杉柱", ja: "すぎばしら", htPron: "こきやばな" }
+                        ]
+                    }
+                ]
+            }
+        ],
+        relatedWords: ["仁", "衆"]
+    },
+    {
+        word: "蔓",
+        pronunciation: "ひょぐ",
+        hiragana: "ひょぐ",
+        mean: [
+            {
+                type: "noun",
+                explanation: [
+                    {
+                        translate: "ツタ,絡み合い",
+                        example: [
+                            { ht: "蔓に引か去", ja: "ツタに引っかかった", htPron: "ひょうぐにこんかた" }
+                        ]
+                    }
+                ]
+            }
+        ],
+        relatedWords: ["仁", "衆"]
+    },
+    {
         word: "仁",
         pronunciation: "がい",
         hiragana: "がい",
