@@ -133,6 +133,25 @@ const dictionary = [
         relatedWords: ["人"]
     },
     {
+        word: "森",
+        pronunciation: "さぬ",
+        hiragana: "さぬ",
+        mean: [
+            {
+                type: "noun",
+                explanation: [
+                    {
+                        translate: "森",
+                        example: [
+                            { ht: "森内通", ja: "森の中かんちょう", htPron: "さぬせぜぢあん" }
+                        ]
+                    }
+                ]
+            }
+        ],
+        relatedWords: ["人"]
+    },
+    {
         word: "従",
         pronunciation: "もく",
         hiragana: "もく",
