@@ -114,6 +114,25 @@ const dictionary = [
         relatedWords: ["人民"]
     },
     {
+        word: "或",
+        pronunciation: "わん",
+        hiragana: "わん",
+        mean: [
+            {
+                type: "?",
+                explanation: [
+                    {
+                        translate: "ある,一つの",
+                        example: [
+                            { ht: "或乏血", ja: "ある貧血", htPron: "わんたぎせる" }
+                        ]
+                    }
+                ]
+            }
+        ],
+        relatedWords: ["人"]
+    },
+    {
         word: "従",
         pronunciation: "もく",
         hiragana: "もく",
