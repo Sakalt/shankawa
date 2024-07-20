@@ -114,7 +114,7 @@ const dictionary = [
         relatedWords: ["赤", "藍"]
     },
     {
-        word: "藍",
+        word: "蒼",
         pronunciation: "みな",
         hiragana: "みな",
         mean: [
@@ -124,13 +124,32 @@ const dictionary = [
                     {
                         translate: "藍色,インディゴ",
                         example: [
-                            { ht: "藍", ja: "藍色", htPron: "みな" }
+                            { ht: "蒼", ja: "藍色", htPron: "みな" }
                         ]
                     }
                 ]
             }
         ],
         relatedWords: ["翠", "赤"]
+    },
+    {
+        word: "樹海",
+        pronunciation: "おがこど",
+        hiragana: "おがこど",
+        mean: [
+            {
+                type: "noun",
+                explanation: [
+                    {
+                        translate: "樹海",
+                        example: [
+                            { ht: "静樹海", ja: "静かな樹海", htPron: "ないおがこど" }
+                        ]
+                    }
+                ]
+            }
+        ],
+        relatedWords: ["森", "樹羅"]
     },
     {
         word: "青",
@@ -142,7 +161,7 @@ const dictionary = [
                 explanation: [
                     {
                         translate: "青,青い",
-                        example: [
+                 おが       example: [
                             { ht: "青衣", ja: "青色の服", htPron: "やまこる" }
                         ]
                     }
