@@ -105,7 +105,7 @@ const dictionary = [
                    {
                         translate: "ホタル、ホタル王国",
                         example: [
-                            { ht: "蛍国", ja: ホタル国", htPron: "いぐてりわり" }
+                            { ht: "蛍国", ja: "ホタル国", htPron: "いぐてりわり" }
                         ]
                     }
                 ]
