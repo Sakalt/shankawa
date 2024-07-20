@@ -95,25 +95,6 @@ const dictionary = [
         relatedWords: ["仁", "衆"]
     },
     {
-        word: "蛍",
-        pronunciation: "いぐてり",
-        hiragana: "いぐてり",
-        mean: [
-            {
-                type: "noun",
-                explanation: [
-                   {
-                        translate: "ホタル、ホタル王国",
-                        example: [
-                            { ht: "蛍国", ja: "ホタル国", htPron:"いぐてりわり" }
-                        ]
-                    }
-                ]
-            }
-        ],
-        relatedWords: ["蛍国", "栄皇国"]
-    },
-    {
         word: "翠",
         pronunciation: "ゆる",
         hiragana: "ゆる",
