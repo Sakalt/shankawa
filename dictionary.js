@@ -45,10 +45,143 @@ const dictionary = [
             {
                 type: "noun",
                 explanation: [
-                    {
+                  いぐてり  {
                         translate: "柱、円柱",
                         example: [
                             { ht: "杉柱", ja: "すぎばしら", htPron: "こきやばな" }
+                        ]
+                    }
+                ]
+            }
+        ],
+        relatedWords: ["仁", "衆"]
+    },
+    {
+        word: "仙",
+        pronunciation: "ふる",
+        hiragana: "ふる",
+        mean: [
+            {
+                type: "noun",
+                explanation: [
+                    {
+                        translate: "偉人,えらい人",
+                        example: [
+                            { ht: "蛍国仙", ja: "ホタル国偉人", htPron: "いぐてりわりふる" }
+                        ]
+                    }
+                ]
+            }
+        ],
+        relatedWords: ["老", "倫人"]
+    },
+    {
+        word: "老",
+        pronunciation: "かま",
+        hiragana: "かま",
+        mean: [
+            {
+                type: "noun",
+                explanation: [
+                    {
+                        translate: "老人,おじいさん,おばあさん",
+                        example: [
+                            { ht: "老家", ja: "老人ホーム", htPron: "かまはく" }
+                        ]
+                    }
+                ]
+            }
+        ],
+        relatedWords: ["仁", "衆"]
+    },
+    {
+        word: "蛍",
+        pronunciation: "いぐてり",
+        hiragana: "いぐてり",
+        mean: [
+            {
+                type: "noun",
+                explanation: [
+                    {
+                        translate: "ホタル、ホタル王国",
+                        example: [
+                            { ht: "蛍国", ja: ホタル国", htPron: "いぐてりわり" }
+                        ]
+                    }
+                ]
+            }
+        ],
+        relatedWords: ["蛍国", "栄皇国"]
+    },
+    {
+        word: "翠",
+        pronunciation: "ゆる",
+        hiragana: "ゆる",
+        mean: [
+            {
+                type: "noun",
+                explanation: [
+                    {
+                        translate: "翡翠色",
+                        example: [
+                            { ht: "翠筆", ja: "翡翠色のペン", htPron: "ゆるすゆ" }
+                        ]
+                    }
+                ]
+            }
+        ],
+        relatedWords: ["赤", "藍"]
+    },
+    {
+        word: "藍",
+        pronunciation: "みな",
+        hiragana: "みな",
+        mean: [
+            {
+                type: "noun",
+                explanation: [
+                    {
+                        translate: "藍色,インディゴ",
+                        example: [
+                            { ht: "藍", ja: "藍色", htPron: "みな" }
+                        ]
+                    }
+                ]
+            }
+        ],
+        relatedWords: ["翠", "赤"]
+    },
+    {
+        word: "青",
+        pronunciation: "やま",
+        hiragana: "やま",
+        mean: [
+            {
+                type: "adjective",
+                explanation: [
+                    {
+                        translate: "青,青い",
+                        example: [
+                            { ht: "青衣", ja: "青色の服", htPron: "やまこる" }
+                        ]
+                    }
+                ]
+            }
+        ],
+        relatedWords: ["翠", "藍"]
+    },
+    {
+        word: "栄皇国",
+        pronunciation: "たかふぁーるわり",
+        hiragana: "たかふぁーるわり",
+        mean: [
+            {
+                type: "noun",
+                explanation: [
+                    {
+                        translate: "下霧帝国",
+                        example: [
+                            { ht: "栄皇国食", ja: "下霧帝国の食べ物", htPron: "たかふぁーるわりべん" }
                         ]
                     }
                 ]
