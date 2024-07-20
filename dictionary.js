@@ -133,6 +133,44 @@ const dictionary = [
         relatedWords: ["人"]
     },
     {
+        word: "旭",
+        pronunciation: "こか",
+        hiragana: "こか",
+        mean: [
+            {
+                type: "noun",
+                explanation: [
+                    {
+                        translate: "旭,朝,日の出",
+                        example: [
+                            { ht: "旭国", ja: "旭国", htPron: "こかわり" }
+                        ]
+                    }
+                ]
+            }
+        ],
+        relatedWords: ["人"]
+    },
+    {
+        word: "血",
+        pronunciation: "せる",
+        hiragana: "せる",
+        mean: [
+            {
+                type: "noun",
+                explanation: [
+                    {
+                        translate: "血,ブラッド",
+                        example: [
+                            { ht: "乏血", ja: "貧血", htPron: "たぎせる" }
+                        ]
+                    }
+                ]
+            }
+        ],
+        relatedWords: ["人"]
+    },
+    {
         word: "杉",
         pronunciation: "こきや",
         hiragana: "こきや",
