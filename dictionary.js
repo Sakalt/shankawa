@@ -45,7 +45,7 @@ const dictionary = [
             {
                 type: "noun",
                 explanation: [
-                  いぐてり  {
+                　　{
                         translate: "柱、円柱",
                         example: [
                             { ht: "杉柱", ja: "すぎばしら", htPron: "こきやばな" }
