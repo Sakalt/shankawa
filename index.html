@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>辞書</title>
+    <style>
+        @font-face {
+            font-family: 'HotalSans';
+            src: url('./hotal-sans.ttf') format('truetype');
+        }
+
+        body {
+            font-family: sans-serif;
+        }
+
+        .word-card {
+            background-color: #FFFFFF;
+            border: 1px solid #CCCCCC;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #333;
+            font-family: 'HotalSans', sans-serif;
+        }
+
+        .example-frame .ht {
+            font-family: 'HotalSans', sans-serif;
+        }
+
+        .noun { color: #FF4500; }
+        .verb { color: #FF8C00; }
+        .adjective { color: #FFD700; }
+        .adverb { color: #ADFF2F; }
+        .pronoun { color: #32CD32; }
+        .numeral { color: #00CED1; }
+        .conjunction { color: #1E90FF; }
+        .particle { color: #9370DB; }
+        .interjection { color: #FF1493; }
+
+        .separator {
+            border-top: 1px dashed #CCCCCC;
+            margin: 10px 0;
+        }
+
+        #pagination {
+            margin: 20px;
+        }
+
+        .page-item {
+            display: inline-block;
+            margin: 0 5px;
+        }
+
+        .page-item a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .active {
+            font-weight: bold;
+        }
+
+        .related-words {
+            margin-top: 10px;
+        }
+
+        .related-word {
+            margin-right: 10px;
+            color: blue;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="search-box" placeholder="検索...">
+    <div id="dictionary-container"></div>
+    <div id="pagination"></div>
+
+    <script src="dictionary.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
