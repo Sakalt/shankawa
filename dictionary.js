@@ -161,7 +161,7 @@ const dictionary = [
                 explanation: [
                     {
                         translate: "青,青い",
-                 おが       example: [
+                        example: [
                             { ht: "青衣", ja: "青色の服", htPron: "やまこる" }
                         ]
                     }
